@@ -1,31 +1,64 @@
-header  {
-    background-color: rgb(82, 126, 191);
-    height: 70px;
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: blue;
+    height: 120px;
     width: 100%;
 }
 
-H1
+h1
 {
     color: red;
 }
 
-H2
+h2
 {
     color: greenyellow;
 }
 
+p
+{
+    border:1px solid black;
+}
+
 .container
 {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: flex;  
 }
+
+.personnage1, .personnage2, .personnage3, .personnage4 {
+border: 1px solid green;
+    position: relative;
+    top:0;
+    width: 50%;
+}
+
 .image
 {
     display: flex;
     justify-content: center;
-    align-items: down;
 }
-.pax{
-    width: 22%;
+
+footer
+{ border: 1px solid red;
+    text-align:center;
+    background-color:blue;
+    height: 70px;
+    width: 100%;
+}
+
+.retour
+{
+    text-align:center;
+    border: 1px solid green;
+}
+
+.joe
+{
+    color:green;
 }
